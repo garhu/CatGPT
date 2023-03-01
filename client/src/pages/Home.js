@@ -1,12 +1,13 @@
-import './Home.css';
 import Header from '../components/Header';
-import Landing from '../components/Landing';
+import HeroSection from '../components/HeroSection';
+import FeaturesSection from '../components/FeaturesSection';
 
 function Home() {
   return (
     <div>
       <Header />
-      <Landing />
+      <HeroSection />
+      <FeaturesSection />
     </div>
   );
 }

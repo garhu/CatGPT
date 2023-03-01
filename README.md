@@ -58,3 +58,6 @@ Cohere does have text generation, but users can ask it anything - whether or not
 - Cat facts: https://catfact.ninja/
 - Cat jokes: https://paradepets.com/cats/cat-jokes
 - Silly little cat guy: https://unsplash.com/photos/Y0WXj3xqJz0
+- Wet cat: https://www.instagram.com/p/Bv4HwFgBWO6/
+- Surprised cat: https://www.thecut.com/2016/02/can-cats-help-curb-youth-smoking.html
+- Rare cat: https://themindcircle.com/13-photoshops-of-cats/

@@ -1,6 +1,5 @@
 body {
   background-color: #598392;
-  overflow: hidden;
 }
 
 html,
@@ -13,4 +12,8 @@ body {
   background-color: #eff6e0;
   height: 85%;
   border-radius: 20px;
+}
+
+.feature-image {
+  width: 100%;
 }
