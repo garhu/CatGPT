@@ -1,0 +1,55 @@
+.messaging-outline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.messaging-input {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.user-message {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 3vh;
+    justify-content: flex-end;
+    margin-right: 3vh;
+}
+
+.user-text {
+    margin-right: "2vh";
+}
+
+.cat-message {
+    display: flex;
+    margin-left: 3vh;
+    padding-top: 10px;
+}
+
+.typing {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.typing::after {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 0;
+    height: 100%;
+    margin-left: -3px;
+    margin-right: 3px;
+    animation: typing 1s steps(10, end) infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 1.5em;
+    }
+  }
