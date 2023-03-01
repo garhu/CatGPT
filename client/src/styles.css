@@ -1,5 +1,12 @@
 body {
   background-color: #598392;
+  overflow: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .messages-box {

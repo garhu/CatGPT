@@ -59,32 +59,30 @@ function Messaging() {
 
   const handleMessageSend = (e) => {
     e.preventDefault();
-    setMessages([...messages, userMessage]);
+    setMessages((prevMessages) => [...prevMessages, userMessage]);
     setUserMessage('');
-    // handleCatResponse();
+    handleCatResponse();
   };
 
-  let isUser = true;
+  let isUser = false;
   const renderedMessages = messages.map((message) => {
     isUser = !isUser;
     return <Message isUser={isUser} key={message} message={message}></Message>;
   });
 
-  // const handleCatResponse = async () => {
-  //   const req = {
-  //     query: userMessage,
-  //   };
-
-  //   await axios
-  //     .post('http://localhost:4000/chat', req)
-  //     .then((response) => {
-  //       console.log('Chatbot responded successfully: ', response.data);
-  //       setMessages((prevMessage) => [...prevMessage, { isUser: false, message: response.data }]);
-  //     })
-  //     .catch((error) => {
-  //       console.log('Error:', error);
-  //     });
-  // };
+  const handleCatResponse = async () => {
+    await axios
+      .post('http://localhost:4000/chat', {
+        query: userMessage,
+      })
+      .then((response) => {
+        console.log('Chatbot responded successfully: ', response.data);
+        setMessages((prevMessages) => [...prevMessages, response.data]);
+      })
+      .catch((error) => {
+        console.log('Error:', error);
+      });
+  };
 
   return (
     <Container
