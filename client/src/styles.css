@@ -1,0 +1,9 @@
+body {
+  background-color: #598392;
+}
+
+.messages-box {
+  background-color: #eff6e0;
+  height: 85%;
+  border-radius: 20px;
+}
