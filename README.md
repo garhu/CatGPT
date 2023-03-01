@@ -7,7 +7,7 @@ CatGPT is a cat-themed chatbot! Meow, meow!
 Before running the app, you'll want to set up the backend server
 
 ```bash
-cd backend
+cd server
 npm install
 node server.js
 ```
@@ -15,7 +15,7 @@ node server.js
 With the server running, you can set up the frontend
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run
 ```
