@@ -3,7 +3,7 @@ import Messaging from '../components/Messaging';
 
 function Chat() {
   return (
-    <div style={{ height: '100vh' }}>
+    <div className="chat-page">
       <Header />
       <Messaging />
     </div>

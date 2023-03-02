@@ -6,7 +6,7 @@ function Message({ message, isUser }) {
   console.log(message);
 
   const renderedAvatar = isUser ? (
-    <Avatar sx={{ bgcolor: green[500], marginLeft: '0.5em' }}>N</Avatar>
+    <Avatar sx={{ bgcolor: green[500], marginLeft: '0.5em' }}>U</Avatar>
   ) : (
     <Avatar src={catAvatar} alt="cat avatar" sx={{ marginRight: '0.5em' }} />
   );
@@ -21,7 +21,6 @@ function Message({ message, isUser }) {
         height: '2em',
         alignItems: 'center',
         flexDirection: () => (isUser ? 'row-reverse' : 'row'),
-        // flexDirection: 'row-reverse',
       }}
     >
       {renderedAvatar}

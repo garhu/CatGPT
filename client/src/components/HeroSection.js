@@ -19,7 +19,14 @@ function HeroSection() {
             The first chatbot made specifically for your cat inquiries.
           </Typography>
           <Link to="/chat" style={{ textDecoration: 'none' }}>
-            <Button variant="contained">
+            <Button
+              variant="outlined"
+              sx={{
+                color: '#eff6e0',
+                borderColor: '#eff6e0',
+                '&:hover': { borderColor: '#eff6e0' },
+              }}
+            >
               <Typography>Get Started</Typography>
             </Button>
           </Link>
