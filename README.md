@@ -22,8 +22,6 @@ npm run
 
 ## Usage
 
-www.foobarpleasedontforgettoreplacethis.com
-
 CatGPT responds to greetings, thanks, and goodbyes.
 
 In addition, CatGPT can give you:
