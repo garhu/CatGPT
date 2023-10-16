@@ -17,7 +17,7 @@ With the server running, you can set up the frontend
 ```bash
 cd client
 npm install
-npm run
+npm start
 ```
 
 ## Usage
