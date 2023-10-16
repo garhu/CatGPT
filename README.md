@@ -2,6 +2,8 @@
 
 CatGPT is a cat-themed chatbot! Meow, meow!
 
+![](https://github.com/garhu/CatGPT/blob/main/animation.gif)
+
 ## Installation
 
 Before running the app, you'll want to set up the backend server
